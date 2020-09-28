@@ -1,0 +1,50 @@
+{
+  "name": "atem-tools",
+  "version": "1.0.0-alpha",
+  "description": "A toolkit for Node.JS to connect Blackmagic Design Atem Switchers and do all kinds of crazy stuff with it.",
+  "main": "dist/atem-tools.js",
+  "types": "dist/atem-tools.d.ts",
+  "prepublish": "tsc",
+  "scripts": {
+    "test": "tsc && node dist/atem-tools.js",
+    "debug": "tsc && node debug dist/atem-tools.js",
+    "start": "node dist/atem-tools.js",
+    "build": "tsc"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "config",
+    "@src": "src",
+    "@dist": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukas-runge/atem-tools.git"
+  },
+  "keywords": [
+    "atem",
+    "tally",
+    "overlay",
+    "OBS",
+    "open",
+    "source",
+    "broadcast",
+    "live",
+    "production",
+    "tools"
+  ],
+  "author": "Lukas Runge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukas-runge/atem-tools/issues"
+  },
+  "homepage": "https://github.com/lukas-runge/atem-tools#readme",
+  "dependencies": {
+    "atem-connection": "^2.0.0-nightly-20200117-174823-3f8cfe7.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.21",
+    "@types/lodash": "^4.14.150"
+  }
+}
