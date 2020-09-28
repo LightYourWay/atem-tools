@@ -1,6 +1,7 @@
 # atem-tools
 
 A npm library that enables you to utilize dmx controlled lights as tally lights for ATEM switchers from Blackmagic Design.
+Big thanks to [@Julusian](https://github.com/Julusian) for supporting me while developing this toolkit! 🎉 [#81](https://github.com/nrkno/tv-automation-atem-connection/issues/81)
 
 ## install
 ```bash
