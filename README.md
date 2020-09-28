@@ -29,5 +29,4 @@ new Tally(cam4, myDmxNode, 16, {r: 1, g: 2})
 
 ## ToDo
 
-- [ ] ✨ GUI
 - [ ] ✨ Browsersource generation for OBS
