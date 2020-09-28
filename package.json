@@ -1,6 +1,6 @@
 {
   "name": "atem-tools",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "A toolkit for Node.JS to connect Blackmagic Design Atem Switchers and do all kinds of crazy stuff with it.",
   "main": "dist/atem-tools.js",
   "types": "dist/atem-tools.d.ts",
