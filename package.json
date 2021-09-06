@@ -1,6 +1,6 @@
 {
   "name": "atem-tools",
-  "version": "1.0.21",
+  "version": "1.0.23",
   "description": "A npm library that enables you to utilize dmx controlled lights as tally lights for ATEM switchers from Blackmagic Design.",
   "main": "dist/atem-tools.js",
   "types": "dist/atem-tools.d.ts",
